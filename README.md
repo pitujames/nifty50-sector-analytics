@@ -3,6 +3,26 @@
 
 # Nifty 50 Sector Rotation & Anomaly Detection
 
+> A financial analytics pipeline for tracking sector leadership, volatility regimes, and unusual market behaviour across Indian large-cap equities.
+
+## Recruiter snapshot
+
+- **End-to-end workflow:** market-data extraction → transformation → sector analysis → anomaly detection → Power BI reporting.
+- **Methods:** rolling returns, volatility comparisons, ranking, deviation-based anomaly flags, and SQL window functions.
+- **Tools:** Python · pandas · NumPy · yfinance · MySQL · Power BI · Jupyter.
+- **Decision focus:** identifies leadership shifts and potential risk signals for portfolio monitoring.
+
+## Repository guide
+
+| File | Purpose |
+|---|---|
+| `01_data_pull.ipynb` | Automated data acquisition workflow |
+| `02_analysis.ipynb` | Sector and volatility analysis |
+| `analysis.sql` | Reproducible ranking and analytical queries |
+| `PROJECT_SUMMARY.md` | Business context and key outcomes |
+
+---
+
 ## Overview
 
 An end-to-end financial analytics project focused on identifying sector leadership trends, volatility shifts, and unusual market activity within Indian large-cap equities.
